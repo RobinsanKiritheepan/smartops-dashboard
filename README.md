@@ -1,36 +1,37 @@
 # SmartOps Dashboard
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)](https://kubernetes.io)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://docker.com)
-[![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://aws.amazon.com)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
 
-AI-powered DevOps platform with real-time Kubernetes cluster monitoring, anomaly detection via Claude API, and automated incident response.
+Plateforme DevOps assistée par IA : supervision en temps réel d'un cluster Kubernetes,
+détection d'anomalies via Claude API et réponse automatisée aux incidents.
 
-> **Work in progress.** Active development.
+> **Projet en cours** — en développement actif.
 
 ---
 
 ## Vision
 
-SmartOps Dashboard centralizes cluster observability and uses AI to reduce toil: it detects anomalies in metrics, suggests remediation steps, and can trigger automated runbooks — all from a single dashboard.
+SmartOps centralise l'observabilité d'un cluster et utilise l'IA pour réduire la charge opérationnelle :
+détection d'anomalies dans les métriques, suggestions de remédiation et déclenchement de runbooks
+automatisés, le tout depuis un tableau de bord unique.
 
 ---
 
-## Planned Stack
+## Stack prévu
 
-| Layer | Technology |
-|---|---|
+| Couche | Technologie |
+|--------|-------------|
 | Backend | FastAPI (Python) |
-| AI | Claude API (Anthropic) |
+| IA | Claude API (Anthropic) |
 | Orchestration | Kubernetes (EKS) |
-| Infra | AWS (EKS, ECR, S3) |
-| CI/CD | Docker, GitHub Actions |
-| Monitoring | Prometheus, Grafana |
+| Infrastructure | AWS (EKS, ECR, S3) |
+| CI/CD | Docker · GitHub Actions |
+| Monitoring | Prometheus · Grafana |
 
 ---
 
-## Author
-
-[Robinsan Kiritheepan](https://github.com/RobinsanKiritheepan) — Cloud & DevOps Engineer · ENSEA · SNCF
+ROBINSAN Kiritheepan — Étudiant ingénieur à l'ENSEA
